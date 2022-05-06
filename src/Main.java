@@ -6,5 +6,7 @@ public class Main {
         // write objects here
 
         // do not touch here
+
+        Cat cat = new Cat();
     }
 }
