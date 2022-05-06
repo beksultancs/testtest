@@ -1,0 +1,23 @@
+Index: src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/**\r\n * @author Beksultan\r\n */\r\npublic class Main {\r\n    public static void main(String[] args) {\r\n        // write objects here\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Main.java b/src/Main.java
+--- a/src/Main.java	
++++ b/src/Main.java	
+@@ -1,8 +1,11 @@
++import Cat.animal.Cat2;
++
+ /**
+  * @author Beksultan
+  */
+ public class Main {
+     public static void main(String[] args) {
+         // write objects here
++         Cat2 cat2 = new Cat2("Momo",12);
+     }
+ }
+\ No newline at end of file
