@@ -6,6 +6,5 @@ public class Main {
 
         Cat cat = new Cat();
 
-
     }
 }
